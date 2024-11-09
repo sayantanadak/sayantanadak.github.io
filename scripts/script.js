@@ -1,6 +1,11 @@
 window.onload = function () {
-    document.getElementById("skills").click();
+    loadInitialContent();
 };
+
+// Function to load initial content
+function loadInitialContent() {
+    loadContent('skills', 'skills');
+}
 
 // Function to load content and set active link
 function loadContent(pageId, activeId) {
