@@ -1,5 +1,5 @@
 window.onload = function () {
-    document.getElementById("aboutMe").click();
+    document.getElementById("skills").click();
 };
 
 // Function to load content and set active link
@@ -31,23 +31,21 @@ function setActive(activeId) {
     });
 }
 
-// Event listeners for navigation links
-document.getElementById("aboutMe").addEventListener("click", function () {
-    loadContent('about_me', 'aboutMe');
-});
+// Function to add event listener and collapse navbar
+function addNavListener(elementId, pageId) {
+    document.getElementById(elementId).addEventListener("click", function () {
+        loadContent(pageId, elementId);
+        if (window.innerWidth < 992) { // Check if the view is mobile
+            var navbarCollapse = new bootstrap.Collapse(document.getElementById('navbarCollapse'), {
+                toggle: true
+            });
+        }
+    });
+}
 
-document.getElementById("skills").addEventListener("click", function () {
-    loadContent('skills', 'skills');
-});
-
-document.getElementById("workplace").addEventListener("click", function () {
-    loadContent('workplace', 'workplace');
-});
-
-document.getElementById("projects").addEventListener("click", function () {
-    loadContent('projects', 'projects');
-});
-
-document.getElementById("blogs").addEventListener("click", function () {
-    loadContent('blogs', 'blogs');
-});
+// Add event listeners for navigation links
+addNavListener("aboutMe", "about_me");
+addNavListener("skills", "skills");
+addNavListener("workplace", "workplace");
+addNavListener("projects", "projects");
+addNavListener("blogs", "blogs");
