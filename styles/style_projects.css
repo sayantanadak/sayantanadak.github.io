@@ -1,0 +1,32 @@
+.card {
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-img {
+  height: 100%;
+  object-fit: cover;
+  filter: blur(15px);
+  transform: scale(1.1);
+}
+
+.card-title,
+.card-text {
+  text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.text-white {
+  color: white;
+}
+
+.link-style {
+  text-shadow: none;
+  color: inherit;
+}
+
+@media (max-width: 768px) {
+  .card {
+      height: 300px;
+  }
+}
