@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100" data-bs-theme="light">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sayantan Adak · Portfolio</title>
+    <meta name="description" content="Portfolio of Sayantan Adak - Flutter, Mobile & Automation" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="icon" href="./assets/images/code.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+        <link rel="stylesheet" href="./styles/style_global.css" />
+        <link rel="stylesheet" href="./styles/style_projects.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body class="d-flex flex-column h-100 prevent-select">
+    <header class="site-header position-relative py-2 px-3">
+        <a class="navbar-brand fw-semibold gradient-text small" href="#" id="homeBrand" style="text-decoration:none;">&lt;sayantan.dev /&gt;</a>
+    </header>
+
+    <!-- Floating modern nav -->
+    <nav class="floating-nav" aria-label="Primary">
+        <ul class="nav gap-1 nav-underline-container" id="navLinks">
+            <span class="nav-active-bg" id="navActiveBg" aria-hidden="true"></span>
+            <li class="nav-item"><a class="nav-link px-3 rounded-pill" href="#" id="aboutMe">About</a></li>
+            <li class="nav-item"><a class="nav-link px-3 rounded-pill" href="#" id="skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link px-3 rounded-pill" href="#" id="workplace">Workplace</a></li>
+            <li class="nav-item"><a class="nav-link px-3 rounded-pill" href="#" id="projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link px-3 rounded-pill" href="#" id="blogs">Blogs</a></li>
+        </ul>
+    </nav>
+
+        <main class="flex-shrink-0 pt-5 mt-4 no-vertical-scroll">
+            <section class="hero container text-center text-md-start d-flex flex-column justify-content-center">
+                <div class="row align-items-center g-4 hero-stage">
+                    <div class="col-md-7 order-2 order-md-1 tagline-block">
+                        <h1 class="display-5 fw-bold mb-3 lh-sm gradient-text hero-tagline">Building thoughtful mobile experiences.</h1>
+                        <p class="lead text-secondary mb-4 hero-sub">Flutter engineer focused on performance, accessibility & automation. I turn designs & ideas into scalable app experiences.</p>
+                        <div class="d-flex flex-wrap gap-2 hero-ctas">
+                            <button class="btn btn-gradient btn-lg" id="ctaProjects" data-load="projects"><i class="bi bi-rocket-takeoff me-2"></i>View Projects</button>
+                            <button class="btn btn-outline-dark btn-lg" id="ctaSkills" data-load="skills"><i class="bi bi-lightning-charge me-2"></i>Skills</button>
+                        </div>
+                    </div>
+                    <div class="col-md-5 order-1 order-md-2 text-center tagline-block">
+                            <div class="hero-blob mx-auto">
+                                <img src="./assets/images/flutter.png" alt="Flutter" class="img-fluid hero-icon" draggable="false" />
+                            </div>
+                    </div>
+                </div>
+                <div id="contentArea" class="content-area-overlay">
+                    <div class="content-shell"><!-- dynamic --></div>
+                </div>
+            </section>
+        </main>
+
+    <footer class="mt-auto py-4 border-top footer-modern">
+        <div class="container small d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+            <div>
+                <span class="fw-semibold">© <span id="yearNow"></span> Sayantan Adak.</span>
+                <span class="text-secondary ms-1">Last updated: <span id="lastUpdated" aria-live="polite">—</span></span>
+            </div>
+            <div class="d-flex gap-3 social-links">
+                <a href="https://github.com/sa3951" target="_blank" aria-label="GitHub" class="text-decoration-none"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/sayantan-adak/" target="_blank" aria-label="LinkedIn" class="text-decoration-none"><i class="bi bi-linkedin"></i></a>
+                <a href="mailto:sayantan.adak96@gmail.com" aria-label="Email" class="text-decoration-none"><i class="bi bi-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+        <script src="./scripts/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

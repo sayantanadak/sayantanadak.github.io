@@ -1,0 +1,131 @@
+[
+    {
+        "id": "flutter",
+        "title": "Flutter",
+        "chipClass": "chip-sky",
+        "bgImage": "assets/images/flutter.png",
+        "bullets": [
+            "Theming",
+            "Custom Widgets, Packages",
+            "Animations",
+            "Routing - GoRouter",
+            "Streams - RxDart",
+            "Caching / Offline - SQLite, Hive",
+            "Localization - Intl",
+            "Remote Data consumption - REST, GraphQL"
+        ]
+    },
+    {
+        "id": "state-mgmt",
+        "title": "State Management",
+        "chipClass": "chip-indigo",
+        "bgImage": "assets/images/dart.png",
+        "bullets": [
+            "Provider",
+            "BLoC",
+            "Riverpod"
+        ]
+    },
+    {
+        "id": "architecture",
+        "title": "Architecture",
+        "chipClass": "chip-forest",
+        "bgImage": "assets/images/troubleshooting.png",
+        "bullets": [
+            "Clean Architecture",
+            "MVVM"
+        ]
+    },
+    {
+        "id": "cicd",
+        "title": "CI / CD",
+        "chipClass": "chip-amber",
+        "bgImage": "assets/images/fastlane.png",
+        "bullets": [
+            "Fastlane",
+            "Automated Tests",
+            "Deployment",
+            "Signing & Versioning",
+            "Release Notes - AI integration"
+        ]
+    },
+    {
+        "id": "design",
+        "title": "Figma to Flutter",
+        "chipClass": "chip-pink",
+        "bgImage": "assets/images/figma.png",
+        "bullets": [
+            "Designed using MCP server",
+            "Pixel perfect implementation",
+            "Responsive design",
+            "Adaptive design"
+        ]
+    },
+    {
+        "id": "agile",
+        "title": "Agile Methodologies",
+        "chipClass": "chip-green",
+        "bgImage": "assets/images/jira.png",
+        "bullets": [
+            "PI Planning",
+            "Sprint Planning",
+            "Workflow Evolution",
+            "Retrospectives",
+            "User Stories"
+        ]
+    },
+    {
+        "id": "cloud",
+        "title": "Cloud",
+        "chipClass": "chip-cyan",
+        "bgImage": "assets/images/cloud-server.png",
+        "bullets": [
+            "GCP - Firebase, Firestore, Functions, Storage",
+            "Server logs analysis in GCP ",
+            "Cost optimization - reduce read/writes, indexing"
+        ]
+    },
+    {
+        "id": "testing",
+        "title": "Testing",
+        "chipClass": "chip-rose",
+        "bgImage": "assets/images/test-tube.png",
+        "bullets": [
+            "Unit Tests",
+            "Widget Tests",
+            "Integration Tests",
+            "Mocking - Mockito",
+            "Covering bugs into test cases - Avoid regressions"
+        ]
+    },
+    {
+        "id": "scm",
+        "title": "Source Code Management",
+        "chipClass": "chip-teal",
+        "bgImage": "assets/images/git.png",
+        "bullets": [
+            "Branch Strategy",
+            "PR Reviews",
+            "Rebase / Merge",
+            "Cherrypick",
+            "GitHub Actions integration"
+        ]
+    },
+    {
+        "id": "security",
+        "title": "Security",
+        "chipClass": "chip-purple",
+        "bgImage": "assets/images/shield.png",
+        "bullets": [
+            "SSL pinning",
+            "SSO integration",
+            "Data encryption",
+            "OWASP best practices",
+            "Session management",
+            "Tamper proofing",
+            "Backup strategies",
+            "GDPR compliance",
+            "Dependency vulnerability checks"
+        ]
+    }
+]
